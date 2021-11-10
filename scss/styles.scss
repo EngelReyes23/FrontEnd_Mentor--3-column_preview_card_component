@@ -1,0 +1,76 @@
+$Color1: hsl(31, 77%, 52%);
+$Color2: hsl(184, 100%, 22%);
+$Color3: hsl(179, 100%, 13%);
+
+body {
+	font-size: 15px;
+	font-family: "Big Shoulders Display", cursive;
+	box-sizing: border-box;
+	background-color: #edf2f7;
+}
+
+@media (min-width: 768px) {
+	img {
+		width: 3.5rem;
+	}
+}
+
+p,
+button {
+	font-family: "Lexend Deca", sans-serif !important;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.color-1 {
+	background-color: $Color1;
+}
+
+.color-2 {
+	background-color: $Color2;
+}
+
+.color-3 {
+	background-color: $Color3;
+}
+
+.btn1 {
+	color: $Color1;
+	background-color: #fff;
+	border-radius: 1.5rem;
+}
+
+.btn1:hover {
+	background-color: $Color1;
+	color: #fff;
+}
+.btn2 {
+	color: $Color2;
+	background-color: #fff;
+	border-radius: 1.5rem;
+}
+
+.btn2:hover {
+	background-color: $Color2;
+	color: #fff;
+}
+.btn3 {
+	color: $Color3;
+	background-color: #fff;
+	border-radius: 1.5rem;
+}
+
+.btn3:hover {
+	background-color: $Color3;
+	color: #fff;
+}
+article {
+	max-height: 26rem;
+	width: 15rem;
+}
